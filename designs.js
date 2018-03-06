@@ -25,4 +25,16 @@ function makeGrid(x, y) {
             $('#table' + i).append('<td></td>');
         }
     }
+
+    // Assign color to clicked cell
+    $('td').click(function addColor(){
+        color = $('#colorPicker').val();
+
+        // Clear cell if not blank
+        if ($(this).attr('style')) {
+            $(this).removeAttr('style')
+        } else {
+            $(this).attr('style', 'background-color:' + color);
+        }
+    })
 }
