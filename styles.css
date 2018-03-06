@@ -16,23 +16,20 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-table,
-tr,
-td, {
-    border: 1px solid black;
-}
-
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 tr {
     height: 20px;
+    border: 1px solid black;
 }
 
 td {
     width: 20px;
+    border: 1px solid black;
 }
 
 input [type=number] {
