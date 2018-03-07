@@ -1,7 +1,7 @@
 Live Project: https://bryanmiller89.github.io/pixel-art/
 
 # Pixel Art Maker Project
-Front-End Web Development
+![screenshot](screenshot.png)
 
 ## About:
 * This single page web app was built using CSS, HTML, JavaScript, and jQuery.
